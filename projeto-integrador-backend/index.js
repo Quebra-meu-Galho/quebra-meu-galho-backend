@@ -1,3 +1,10 @@
+/* Rode os comandos no terminal para setar seu ambiente:
+npm start;
+psql -U postgres
+
+*/
+
+
 const app = require('express')();
 const consign = require('consign'); //O consign ajuda a interpretar e juntar os dados, facilitando o trabalho
 const db = require('./config/db')
